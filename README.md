@@ -4,7 +4,7 @@ clean_cr.py is for the use of the cleaning out cosmic rays from dark calibration
 
 ## Download ```clean_cr.py```
 
-## In terminal, open ```clean_cr.py```
+## In terminal ```open clean_cr.py```
 
 In the ```MAIN``` of the code
 - Input the fits file you would like to correct for object ```infile```
@@ -13,7 +13,8 @@ In the ```MAIN``` of the code
 ## Running filter
 Once ```infile``` and ```outfile``` names are inserted
 
-Start correcting by inputting python ```clean_cr.py```
+Start correcting by executing
+        ```python clean_cr.py``` in terminal
 
 ## As code runs
 Code algorithm:
