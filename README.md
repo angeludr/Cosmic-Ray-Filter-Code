@@ -2,9 +2,7 @@
 
 clean_cr.py is for the use of the cleaning out cosmic rays from dark calibration images.
 
-## To use filter:
-
-- Download ```clean_cr.py```
+## Download ```clean_cr.py```
 
 ## In terminal, open ```clean_cr.py```
 
