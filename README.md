@@ -23,12 +23,12 @@ Code algorithm:
 - Iterate through each pixel within the detector
     - Compute the difference between image frames
     - Calculate the robust standard deviation
-        - If a difference value is more than the calculated robust standard deviation, the pixel will be flagged for having a cosmic ray
-- If a pixel is flagged for having a cosmic ray:
+        - _If a difference value is more than the calculated robust standard deviation, the pixel will be flagged for having a cosmic ray_
+- **If a pixel is flagged for having a cosmic ray**:
     - Line fitting via linear regression is applied before and after the cosmic ray jump
     - An offset is calculated from the before and after fitted slopes and the offset is applied to the affected section of the pixel
     - Corrected pixel data gets saved into a corrected output file at the same coordinates within detector
-- If a pixel is not flagged, it will be saved regardless into a corrected output file at the same coordinates within detector
+- **If a pixel is not flagged, it will be saved regardless into a corrected output file at the same coordinates within detector**
 
 ## In terminal
 Once the code is executed and begins correcting, the following will be printed:
