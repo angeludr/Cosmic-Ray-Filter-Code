@@ -10,7 +10,7 @@ In the ```MAIN``` of the code
 - Input the fits file you would like to correct for object ```infile```
 - Input the desired name of the outfile for object ```outfile```
 
-Save inputs with ```cmd + s``` (_MACOS_)_ or ```cntrl + s``` (_WINDOWS_)
+Save inputs with ```cmd + s``` (_MACOS_) or ```cntrl + s``` (_WINDOWS_)
 
 ## Execute code:
 ```python clean_cr.py``` in terminal
