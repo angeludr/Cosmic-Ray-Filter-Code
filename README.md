@@ -21,21 +21,21 @@ Code algorithm:
 - Open the fits files and obtain detectors dimensions
     - Length, width, image frames
 - Iterate through each pixel within the detector
--   Compute the difference between image frames
--   Calculate the robust standard deviation
--     If a difference value is more than the calculated robust standard deviation, it will be flagged for having a cosmic ray
+- <sub> Compute the difference between image frames <sub>
+- <sub> Calculate the robust standard deviation <sub>
+- If a difference value is more than the calculated robust standard deviation, it will be flagged for having a cosmic ray
 - If a pixel is flagged for having a cosmic ray:
--   Line fitting via linear regression is applied before and after the cosmic ray jump
--   An offset is calculated from the before and after fitted slopes and the offset is applied to the affected section of the pixel
--   Corrected pixel data gets saved into a corrected output file at the same coordinates within detector
+-   <sub> Line fitting via linear regression is applied before and after the cosmic ray jump <sub>
+-   <sub> An offset is calculated from the before and after fitted slopes and the offset is applied to the affected section of the pixel <sub>
+-   <sub> Corrected pixel data gets saved into a corrected output file at the same coordinates within detector <sub>
 - If a pixel is not flagged, it will be saved regardless into a corrected output file at the same coordinates within detector
 
 ## In terminal
 Once the code is executed and begins correcting, the following will be printed:
-- The pixel coordinates of the pixel that has been flagged for having a cosmic ray
-- The image frames within the pixel where the cosmic ray was detected
-- The amplitude of the jump of the cosmic ray
+- <sub> The pixel coordinates of the pixel that has been flagged for having a cosmic ray <sub>
+- <sub> The image frames within the pixel where the cosmic ray was detected <sub>
+- <sub> The amplitude of the jump of the cosmic ray <sub>
 
 ## Output
-- A fits file of the corrected pixel
-- A npz file containing the information printed in terminal + more _(coming soon)_
+- <sub> A fits file of the corrected pixel <sub>
+- <sub> A npz file containing the information printed in terminal + more _(coming soon)_ <sub>
