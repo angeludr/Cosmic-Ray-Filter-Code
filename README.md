@@ -34,7 +34,7 @@ Code algorithm:
 Once the code is executed and begins correcting, the following will be printed:
 - The pixel coordinates of the pixel that has been flagged for having a cosmic ray
 - The image frames within the pixel where the cosmic ray was detected
-- The amplitude of the jump of the cosmic ray <sub>
+- The amplitude of the jump of the cosmic ray
 
 ## Output
 - A fits file of the corrected pixel 
