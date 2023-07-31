@@ -9,14 +9,12 @@ clean_cr.py is for the use of the cleaning out cosmic rays from dark calibration
 In the ```MAIN``` of the code
 - Input the fits file you would like to correct for object ```infile```
 - Input the desired name of the outfile for object ```outfile```
+Save inputs with ```cmd + s``` (_MACOS_)_ or ```cntrl + s``` (_WINDOWS_)
 
-## Running filter
-Once ```infile``` and ```outfile``` names are inserted
+## Execute code:
+```python clean_cr.py``` in terminal
 
-Start correcting by executing
-        ```python clean_cr.py``` in terminal
-
-## As code runs
+## Upon execution:
 Code algorithm:
 - Open the fits files and obtain detectors dimensions
     - Length, width, image frames
@@ -39,4 +37,4 @@ Once the code is executed and begins correcting, the following will be printed:
 
 ## Output
 - A fits file of the corrected pixel 
-- A npz file containing the information printed in terminal + more _(coming soon)_ 
+- A npz file containing the information printed in terminal + more (_coming soon_)
