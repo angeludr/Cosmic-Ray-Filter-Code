@@ -8,7 +8,7 @@ clean_cr.py is for the use of the cleaning out cosmic rays from dark calibration
 
 In the ```MAIN``` of the code
 - Replace ```in_filename``` with the name of the fits file that you would like to correct
-- Replace ```out_filename``` with the name of the desired name of file once corrections are done
+- Replace ```out_filename``` with the desired name of file once corrections are done
 
 Save inputs with ```cmd + s``` (_MACOS_) or ```cntrl + s``` (_WINDOWS_)
 
