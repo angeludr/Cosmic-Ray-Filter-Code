@@ -21,7 +21,7 @@ Code algorithm:
     - Length, width, image frames
 - Iterate through each pixel within the detector
     - Compute the difference between image frames
-    - Calculate the robust standard deviation
+    - Calculate the robust standard deviation from the calculated differences
         - _If a difference value is more than the calculated robust standard deviation, the pixel will be flagged for having a cosmic ray_
 - **If a pixel is flagged for having a cosmic ray**:
     - Line fitting via linear regression is applied before and after the cosmic ray jump
